@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./images/background_home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 2px 2px;
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.logo-sp{
+    display: none;
+}
+
+ul{
+    color: white !important;
+    font-weight: 600;
+    opacity: 1 !important;
+}
+
+.buttons-nav{
+    color: #0d4fae;
+    background-color: white;
+    font-weight: 700;
+    transition: 300ms;
+    width: 150px;
+}
+.buttons-nav:hover{
+    background-color: #0d4fae;
+    color: white;
+    transition: 300ms;
+    
+}
+
+.buttons{
+    background-color: #0d4fae;
+    color: white;
+    font-weight: 700;
+    transition: 300ms;
+    width: 150px;
+}
+
+.buttons:hover{
+    color: #0d4fae;
+    background-color: white;
+    transition: 300ms;
+    
+}
+
+.home-main{
+    width: 80%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.home-desc{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+}
+
+.home-desc strong{
+    font-size: 45px;
+    color: white;
+}
+
+.home-desc hr{
+    background-color: #004fff;
+    height: 4px;
+    width: 200px;
+}
+
+.home-desc span{
+    color: rgb(240, 240, 240);
+    font-size: 20px;
+}
+
+.icons-home{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.service-main-1{
+    width: 80%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.service-desc-1{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+}
+
+.service-desc-1 strong{
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+
+.service-desc-1 hr{
+    background-color: #004fff;
+    height: 4px;
+    width: 200px;
+}
+
+.service-desc-1 span{
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+}
+
+@media (max-width: 370px) {
+    .buttons-nav{
+        display:none;
+    }
+
+    .logo-pc{
+        display: none;
+    }
+
+    .logo-sp{
+        display: inline;
+    }
+
+    
+}
+
+@media (max-width: 800px) {
+    .home-img{
+        display: none;
+    }
+
+    .home-main{
+        width: 90%;
+    }
+
+    .home-desc{
+        width: 100%;
+    }
+}
