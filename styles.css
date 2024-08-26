@@ -89,8 +89,9 @@ ul{
 }
 
 .home-desc strong{
-    font-size: 55px;
+    font-size: 7vh;
     color: white;
+    margin-right: 20px;
 }
 
 .home-desc hr{
@@ -131,7 +132,7 @@ ul{
 }
 
 .service-desc-1 strong{
-    font-size: 45px;
+    font-size: 6vh;
     color: rgb(255, 255, 255);
 }
 
@@ -168,7 +169,7 @@ ul{
 }
 
 .service-desc-2 strong{
-    font-size: 45px;
+    font-size: 6vh;
     color: rgb(0, 0, 0);
 }
 
@@ -204,11 +205,11 @@ ul{
     flex-direction: column;
     border-radius: 20px;
     gap: 10px;
-    padding: 30px;
+    padding: 5px;
 }
 
 .work-exemple strong{
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 
@@ -281,7 +282,7 @@ ul{
     border-radius: 10px;
     font-style: italic;
     padding: 10px;
-    width: 300px;
+    width: 250px;
 }
 
 .about-contact textarea{
@@ -289,7 +290,7 @@ ul{
     border-radius: 10px;
     font-style: italic;
     padding: 10px;
-    width: 300px;
+    width: 250px;
     height: 100px;
 }
 
@@ -307,6 +308,18 @@ ul{
     .logo-sp{
         display: inline;
         
+    }
+
+    .home-main strong{
+        font-size: 4vh;
+    }
+
+    .service-main-1 strong{
+        font-size: 4vh;
+    }
+
+    .service-main-2 strong{
+        font-size: 4vh;
     }
 
     
