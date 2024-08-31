@@ -98,7 +98,10 @@
 
                     </div>
                 </div>
-                <img class="home-img" width="30%" src="/images/boneco_home.png" alt="">
+                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <dotlottie-player src="https://lottie.host/18270812-adf8-4256-ba36-607990bb4d62/YXWtXdpvct.json" class="service-img-1" background="transparent" speed="1" style="width:35%;" loop autoplay></dotlottie-player>
+                
             </div>
         </center>
     </main>
@@ -141,7 +144,9 @@
                 </span>
                 <button class="btn buttons">Fale Conosco</button>
             </div>
-            <img class="service-img-2" width="35%" src="/images/service-2-img.png" alt="">
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <dotlottie-player src="https://lottie.host/8d714a46-89b0-4dcd-a817-74c831a16aec/NS0Gn5pIXD.json" class="service-img-2" background="transparent" speed="1" style="width: 35%" loop autoplay></dotlottie-player>
         </div>
     </center>
 
@@ -177,6 +182,22 @@
                 <span>Em caso de  pequenas ou grandes alterações, estaremos aqui para você!</span>
             </div>
         </div>
+        <script>
+            document.querySelectorAll('.work-exemple').forEach(card => {
+    card.addEventListener('mousemove', (e) => {
+        const { offsetWidth: width, offsetHeight: height } = card;
+        const { offsetX: x, offsetY: y } = e;
+        const xRotation = ((y / height) - 0.5) * 30; // 30 é o máximo ângulo de rotação
+        const yRotation = ((x / width) - 0.5) * -30; // -30 é o máximo ângulo de rotação
+        card.style.transform = `rotateX(${xRotation}deg) rotateY(${yRotation}deg)`;
+    });
+
+    card.addEventListener('mouseleave', () => {
+        card.style.transform = 'rotateX(0deg) rotateY(0deg)';
+    });
+});
+
+        </script>
     </center>
 
 <center style="background-color: rgb(246, 246, 246); margin-top: 10px;">
@@ -192,7 +213,7 @@
             <img src="/images/1.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="/images/2.png" class="d-block w-80" alt="...">
+            <img src="/images/2.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
             <img src="/images/3.png" class="d-block w-100" alt="...">
