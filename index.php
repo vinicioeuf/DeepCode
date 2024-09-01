@@ -47,10 +47,10 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <a class="navbar-brand ms-3 logo-pc" href="#">
-                        <img src="/images/deepcode_black.png" alt="Logo" width="100" class="d-inline-block align-top">
+                        <img src="images/deepcode_black.png" alt="Logo" width="100" class="d-inline-block align-top">
                     </a>
                     <a class="navbar-brand ms-3 logo-sp" href="#">
-                        <img src="/images/deepcode_black_2.png" alt="Logo" width="150" class="d-inline-block align-top">
+                        <img src="images/deepcode_black_2.png" alt="Logo" width="150" class="d-inline-block align-top">
                     </a>
                 </div>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -117,7 +117,7 @@
 
     <center style="background-color: rgb(0, 0, 0)" class="mt-5">
         <div class="service-main-1">
-            <img class="service-img-1" width="35%" src="/images/service-1-img.png" alt="">
+            <img class="service-img-1" width="35%" src="images/service-1-img.png" alt="">
             <div class="service-desc-1">
                 <strong>Sites rápidos, responsivos e profissionais
                 </strong>
@@ -210,16 +210,16 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/images/1.png" class="d-block w-100" alt="...">
+            <img src="images/1.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="/images/2.png" class="d-block w-100" alt="...">
+            <img src="images/2.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="/images/3.png" class="d-block w-100" alt="...">
+            <img src="images/3.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="/images/4.png" class="d-block w-100" alt="...">
+            <img src="images/4.png" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -254,7 +254,7 @@
         
             <div class="about-partners">
                 <strong>Parceiros</strong>
-                <img width="100" src="/images/cloudez_partner.png" alt="Imagem dos parceiros">
+                <img width="100" src="images/cloudez_partner.png" alt="Imagem dos parceiros">
             </div>
         
             <div class="about-contact">
