@@ -1,3 +1,10 @@
+<?php
+//Load Composer's autoloader
+require 'vendor/autoload.php';
+$dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__);
+$dotenv->load();
+// echo "Recuperar o ambiente: " . $_ENV['APP_ENV'] . "<br>";
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -10,6 +17,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" type="imagex/png" href="images/icon.ico">
     <link rel="stylesheet" href="styles.css">
     <title>DeepCode - Agência</title>
 </head>
@@ -73,7 +81,8 @@
                     </ul>
                 </div>
                 <div class="d-flex justify-content-end">
-                    <a class="btn btn-primary buttons-nav" href="#" role="button">Fale Conosco</a>
+                    <a class="btn btn-primary buttons-nav" href="https://wa.me/5587991974484" role="button">Fale Conosco</a>
+                    
                 </div>
             </div>
         </nav>
@@ -89,7 +98,7 @@
                         Entendemos as necessidades de cada cliente e transformamos ideias em experiências digitais de
                         impacto.
                     </span>
-                    <button class="btn buttons">Fale Conosco</button>
+                    <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Fale Conosco</a>
                     <div class="icons-home">
                         <i class="bi bi-instagram"></i>
                         <i class="bi bi-facebook"></i>
@@ -127,7 +136,7 @@
                     estética moderna com funcionalidade,
                     proporcionando uma presença digital que destaca sua marca de forma profissional e eficiente.
                 </span>
-                <button class="btn buttons">Fale Conosco</button>
+                <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Fale Conosco</a>
             </div>
         </div>
     </center>
@@ -142,7 +151,7 @@
                     independentemente da plataforma. Com foco em desempenho e usabilidade, 
                     entregamos aplicativos que são rápidos, responsivos e preparados para atender às necessidades dos seus usuários de forma eficaz e eficiente.
                 </span>
-                <button class="btn buttons">Fale Conosco</button>
+                <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Fale Conosco</a>
             </div>
             <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
 
@@ -257,12 +266,13 @@
                 <img width="100" src="images/cloudez_partner.png" alt="Imagem dos parceiros">
             </div>
         
-            <div class="about-contact">
+            <form class="about-contact" action="sendmail.php" method="post">
                 <strong>Entre em Contato</strong>
-                <input type="text" placeholder="Seu nome">
-                <textarea placeholder="Sua mensagem"></textarea>
-                <button class="btn buttons" type="submit">Enviar</button>
-            </div>
+                <input type="text" placeholder="Seu nome" name="nome">
+                <input type="text" placeholder="Seu E-mail" name="email">
+                <textarea placeholder="Sua mensagem" name="message"></textarea>
+                <button class="btn buttons" type="submit" name="submit">Enviar</button>
+            </form>
         </div>
         
         <h5 style="color: gray; margin-top: 100px;">Copyright&copy; 2024 DeepCode &reg; 
