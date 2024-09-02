@@ -64,19 +64,19 @@ $dotenv->load();
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav fs-6 text-black">
                         <li class="nav-item  ms-4">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item ms-4">
-                            <a class="nav-link" href="#">Serviços</a>
+                            <a class="nav-link" href="#servicos">Serviços</a>
                         </li>
                         <li class="nav-item ms-4">
-                            <a class="nav-link" href="#">Como trabalhamos?</a>
+                            <a class="nav-link" href="#como-trabalhamos">Como trabalhamos?</a>
                         </li>
                         <li class="nav-item ms-4">
-                            <a class="nav-link" href="#">Sobre Nós</a>
+                            <a class="nav-link" href="#carouselExampleIndicators">Sobre Nós</a>
                         </li>
                         <li class="nav-item ms-4">
-                            <a class="nav-link" href="#">Suporte</a>
+                            <a class="nav-link" href="#suporte">Suporte</a>
                         </li>
                     </ul>
                 </div>
@@ -88,7 +88,7 @@ $dotenv->load();
         </nav>
 
         <center>
-            <div class="home-main">
+            <div class="home-main" id="home">
                 <div class="home-desc">
                     <strong>Desenvolvimento de Sites e Aplicativos</strong>
                     <hr>
@@ -117,10 +117,10 @@ $dotenv->load();
 
 
 
-    <div class="titles" >
-        <h1 style="color: #0d4fae; font-weight: bold;">Serviços</h1>
-        <h6 style="color: white;">Tudo que sua empresa precisa em um só lugar</h5>
-        <hr style="width: 200px; background-color: #0d4fae; height: 4px;">
+    <div id="servicos" class="titles">
+    <h1 style="color: #0d4fae; font-weight: bold;">Serviços</h1>
+    <h6 style="color: white;">Tudo que sua empresa precisa em um só lugar</h6>
+    <hr style="width: 200px; background-color: #0d4fae; height: 4px;">
 </div>
 
 
@@ -160,11 +160,14 @@ $dotenv->load();
     </center>
 
     <center>
-        <div class="titles-2" >
-            <h1 style="color: #0d4fae; font-weight: bold;">Como trabalhamos?</h1>
-            <h6 style="color: white;">Acompanhe nosso processo de desenvolvimento da sua plataforma</h5>
-            <hr style="width: 200px; background-color: #0d4fae; height: 4px;">
-        </div>
+    <center id="como-trabalhamos">
+    <div class="titles-2">
+        <h1 style="color: #0d4fae; font-weight: bold;">Como trabalhamos?</h1>
+        <h6 style="color: white;">Acompanhe nosso processo de desenvolvimento da sua plataforma</h6>
+        <hr style="width: 200px; background-color: #0d4fae; height: 4px;">
+    </div>
+    
+</center>
 
         <div class="work-main">
             <div class="work-exemple">
@@ -243,7 +246,7 @@ $dotenv->load();
 </center>
 
     <center>
-        <div class="titles-2" >
+        <div class="titles-2" id="suporte">
             <h1 style="color: #0d4fae; font-weight: bold;">Suporte</h1>
             <h6 style="color: white;">Descubra mais sobre nós! Nos envie um e-mail e tire qualquer dúvida</h5>
             <hr style="width: 200px; background-color: #0d4fae; height: 4px;">
