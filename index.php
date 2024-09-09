@@ -23,7 +23,7 @@ $dotenv->load();
 </head>
 
 <body>
-
+    
     <main style="
     position: relative;
     background-image: url('./images/background_home.png');
@@ -100,10 +100,10 @@ $dotenv->load();
                     </span>
                     <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Fale Conosco</a>
                     <div class="icons-home">
-                        <i class="bi bi-instagram"></i>
-                        <i class="bi bi-facebook"></i>
-                        <i class="bi bi-whatsapp"></i>
-                        <i class="bi bi-envelope"></i>
+                        <a href="https://www.instagram.com/agenciadeepcode/" style="color: white;"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/deepcode-ag%C3%AAncia/" style="color: white;"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://wa.me/5587991974484" style="color: white;"><i class="bi bi-whatsapp"></i></a>
+                        
 
                     </div>
                 </div>
@@ -218,7 +218,7 @@ $dotenv->load();
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+         
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -230,9 +230,7 @@ $dotenv->load();
           <div class="carousel-item">
             <img src="images/3.png" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item">
-            <img src="images/4.png" class="d-block w-100" alt="...">
-          </div>
+          
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -258,15 +256,15 @@ $dotenv->load();
                 <img width="100" src="images/deepcode_black.png" alt="Descrição da imagem">
                 <span>Agência de desenvolvimento de sites e aplicativos</span>
                 <div class="about-icons">
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-instagram"></i>
-                    <i class="bi bi-whatsapp"></i>
+                <a href="https://www.instagram.com/agenciadeepcode/" style="color: white;"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/deepcode-ag%C3%AAncia/" style="color: white;"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://wa.me/5587991974484" style="color: white;"><i class="bi bi-whatsapp"></i></a>
                 </div>
             </div>
         
             <div class="about-partners">
                 <strong>Parceiros</strong>
-                <img width="100" src="images/cloudez_partner.png" alt="Imagem dos parceiros">
+                <a href="https://cloudez.io/br?utm_campaign=partner-deepcodeagencia-deep-code-badge&utm_medium=badge&utm_source=partner&utm_content=partner&utm_term="><img alt="" width="220" height="60" src="https://files.cloudez.io/stamp/partner-sm.svg"></a>
             </div>
         
             <form class="about-contact" action="sendmail.php" method="post">
@@ -282,6 +280,34 @@ $dotenv->load();
         </h5>
     </center>
 
+    <a href="https://wa.me/5587991974484" target="_blank" class="whatsapp-button">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <style>
+        .whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e;
+    color: white;
+    text-decoration: none;
+}
+    </style>
 
 
 </body>
