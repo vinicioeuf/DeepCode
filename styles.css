@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: #fafafa;
     margin: 0;
     padding: 0;
     font-family: "Ubuntu", sans-serif;
@@ -18,31 +18,43 @@ body {
 }
 
 ul{
-    color: white !important;
-    font-weight: 600;
+    color: rgb(51, 48, 48) !important;
     opacity: 1 !important;
 }
 
 .buttons-nav{
-    color: #0d4fae;
-    background-color: white;
-    font-weight: 700;
-    transition: 300ms;
-    width: 150px;
-}
-.buttons-nav:hover{
     background-color: #0d4fae;
     color: white;
+    transition: 300ms;
+    width: 150px;
+    border: 0;
+}
+.buttons-nav:hover{
+    color: #0d4fae;
+    background-color: white;
     transition: 300ms;
     
 }
 
+.buttons-nav-alter{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    transition: 300ms;
+    width: 200px;
+    border: 0;
+}
+.buttons-nav-alter:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: 300ms;
+    width: 150px;
+}
 .buttons{
     background-color: #0d4fae;
     color: white;
-    font-weight: 700;
+   
     transition: 300ms;
-    width: 150px;
+    width: 200px;
 }
 
 .buttons:hover{
@@ -53,18 +65,18 @@ ul{
 }
 
 .titles{
-    background-color: rgb(0, 0, 0); 
         margin-top: 50px; 
-        box-shadow: 0px -140px 50px -5px rgba(0, 0, 0, 1);
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        width: 100%;
 }
 
 .titles-2{
-    background-color: rgb(0, 0, 0); 
+    
         margin-top: 50px; 
-        justify-content: start;
+        justify-content: center;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -79,6 +91,10 @@ ul{
     gap: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-image: url('/images/fundo_home.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
 
 }
 .home-desc{
@@ -90,28 +106,22 @@ ul{
 }
 
 .home-desc strong{
-    font-size: 7vh;
-    color: white;
+    font-size: 4vw;
+    color: rgb(0, 0, 0);
     margin-right: 20px;
 }
 
-.home-desc hr{
-    background-color: #004fff;
-    height: 4px;
-    width: 200px;
-}
+
 
 .home-desc span{
-    color: rgb(240, 240, 240);
+    color: rgb(74, 74, 74);
     font-size: 20px;
 }
 
-.icons-home{
-    color: white;
-    font-size: 25px;
-    display: flex;
-    gap: 20px;
+.home-img{
+    width: 35%;
 }
+
 
 .service-main-1{
     width: 80%;
@@ -133,18 +143,14 @@ ul{
 }
 
 .service-desc-1 strong{
-    font-size: 6vh;
-    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    color: rgb(0, 0, 0);
 }
 
-.service-desc-1 hr{
-    background-color: #004fff;
-    height: 4px;
-    width: 200px;
-}
+
 
 .service-desc-1 span{
-    color: rgb(255, 255, 255);
+    color: gray;
     font-size: 20px;
 }
 
@@ -170,15 +176,11 @@ ul{
 }
 
 .service-desc-2 strong{
-    font-size: 6vh;
+    font-size: 3vw;
     color: rgb(0, 0, 0);
 }
 
-.service-desc-2 hr{
-    background-color: #004fff;
-    height: 4px;
-    width: 200px;
-}
+
 
 .service-desc-2 span{
     color: rgb(0, 0, 0);
@@ -333,9 +335,7 @@ ul{
         
     }
 
-    .home-main strong{
-        font-size: 4vh;
-    }
+    
 
     .service-main-1 strong{
         font-size: 4vh;
@@ -349,54 +349,72 @@ ul{
 }
 
 @media (max-width: 800px) {
-    .home-img{
-        display: none;
-    }
+    
 
     .home-main{
         width: 90%;
+        justify-content: center;
+        align-items: center;
     }
 
     .home-desc{
         width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .home-desc strong{
+        font-size: 200%;
     }
 
+    
+
+   
+    
     .service-main-1{
         width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-desc-1 strong{
+        font-size: 200%;
     }
 
     .service-desc-1{
         width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .service-main-2{
         width: 90%;
+        justify-content: center;
+        align-items: center;
     }
 
+    .service-desc-2 strong{
+        font-size: 200%;
+    }
     .service-desc-2{
         width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
-
-    .service-img-1{
-        display: none;
+    
+    .home-img{
+        width: 350px;
     }
+    
 
-    .service-img-2{
-        display: none;
-    }
+    
 
-    .titles{
-        margin-left: 5%;
-        align-items: flex-start;
-        justify-content: start;
-    }
+   
 
-    .titles-2{
-        margin-left: 5%;
-        align-items: flex-start;
-        justify-content: start;
-    }
+    
 
     .about-main{
         width: 90%;
