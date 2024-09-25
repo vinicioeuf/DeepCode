@@ -89,8 +89,9 @@
                 </div>
 
             </div>
-            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
-            <dotlottie-player src="https://lottie.host/8d714a46-89b0-4dcd-a817-74c831a16aec/NS0Gn5pIXD.json" class="home-img" background="transparent" speed="1" loop autoplay></dotlottie-player>
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+            <dotlottie-player class="home-img" src="https://lottie.host/a8c5ffc9-82ed-4ba2-9379-7119214f66a5/gUDoGKKgBI.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
+            
 
 
         </div>
@@ -114,7 +115,9 @@
 
     <center class="mt-5">
         <div class="service-main-1">
-            <img class="service-img-1" width="35%" src="images/service-1-img.png" alt="">
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+<dotlottie-player src="https://lottie.host/e97f443a-596e-4043-8f11-bbdce8b386af/8qazOHdz2c.json" background="transparent" speed="1" class="home-img" loop autoplay></dotlottie-player>
             <div class="service-desc-1">
                 <strong><font style="color: #0d4fae;">Sites</font> rápidos, responsivos e profissionais
                 </strong>
