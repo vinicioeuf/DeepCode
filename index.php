@@ -217,7 +217,34 @@
         </script>
     </center>
 
-    
+    <div class="titles-2">
+                <h1 style=" font-weight: bold;">Afiliados</h1>
+                <div style="display: flex; gap: 10px;">
+                    <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
+                    <hr style="height: 9px; width: 50px; border: none; background-color: gray; border-radius:10px">
+                </div>
+                <span style="color: gray;">Veja como você pode ganhar dinheiro conosco</span>
+                
+            </div>
+    <center>
+        <div class="service-main-2">
+            <div class="service-desc-2">
+                <strong>Seja nosso <font style="color: #0d4fae;">afiliado</font> e ganhe até 20% de <font style="color: #0d4fae;">comissão</font>
+                </strong>
+                <div style="display: flex; gap: 10px;">
+                    <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
+                    <hr style="height: 9px; width: 50px; border: none; background-color: gray; border-radius:10px">
+                </div>
+                <span>Gostaria de ganhar dinheiro conosco? Claro que sim, não é? Conheça nossos serviços e valores e ganhe uma porcentagem no valor da aplicação + uma taxa mensal em caso de assinatura de um dos planos de performance.
+                     Quer saber como fazer isso? Basta clicar no botão abaixo.
+                </span>
+                <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Ser afiliado</a>
+            </div>
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <dotlottie-player src="https://lottie.host/c3155bf3-2718-4f0b-8994-d4e9d0d6cea3/Sr3uRIzxmF.json" class="home-img" background="transparent" speed="1" loop autoplay></dotlottie-player>
+        </div>
+    </center>
 
     <center>
         <div class="titles-2" id="suporte">
@@ -265,7 +292,7 @@
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color: #25d366;
+            background-color:#0d4fae;
             color: white;
             border-radius: 50%;
             width: 60px;
