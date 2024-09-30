@@ -22,7 +22,7 @@
     <title>DeepCode - Agência</title>
 </head>
 
-<body>
+<body >
     <nav class="navbar navbar-expand-lg  mt-2">
         <div style="width: 80%;" class="container-fluid">
             <div class="d-flex align-items-center justify-content-between">
@@ -337,42 +337,33 @@
         </div>
     </section>
 
+
     <center>
-        <div class="titles-2" id="suporte">
-            <h1 style="color: #0d4fae; font-weight: bold;">Suporte</h1>
-            <h6 style="color: white;">Descubra mais sobre nós! Nos envie um e-mail e tire qualquer dúvida</h5>
-                <hr style="width: 200px; background-color: #0d4fae; height: 4px;">
+        <div id="servicos" class="titles">
+            <h1 style="font-weight: bold;">Suporte</h1>
+            <div style="display: flex; gap: 10px;">
+                <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
+                <hr style="height: 9px; width: 50px; border: none; background-color: gray; border-radius:10px">
+            </div>
+            <span style="color: gray;">Descubra mais sobre nós! Nos envie um e-mail e tire qualquer dúvida</span>
+
         </div>
 
-        <div class="about-main">
-            <div class="about-desc">
-
-                <img width="100" src="images/deepcode_black.png" alt="Descrição da imagem">
-                <span>Agência de desenvolvimento de sites e aplicativos</span>
-                <div class="about-icons">
-                    <a href="https://www.instagram.com/agenciadeepcode/" style="color: white;"><i class="bi bi-instagram"></i></a>
-                    <a href="https://www.linkedin.com/company/deepcode-ag%C3%AAncia/" style="color: white;"><i class="bi bi-linkedin"></i></a>
-                    <a href="https://wa.me/5587991974484" style="color: white;"><i class="bi bi-whatsapp"></i></a>
-                </div>
-            </div>
-
-            <div class="about-partners">
-                <strong>Parceiros</strong>
-                <a href="https://cloudez.io/br?utm_campaign=partner-deepcodeagencia-deep-code-badge&utm_medium=badge&utm_source=partner&utm_content=partner&utm_term="><img alt="" width="220" height="60" src="https://files.cloudez.io/stamp/partner-sm.svg"></a>
-            </div>
-
-            <form class="about-contact" action="sendmail.php" method="post">
-                <strong>Entre em Contato</strong>
-                <input type="text" placeholder="Seu nome" name="nome">
-                <input type="text" placeholder="Seu E-mail" name="email">
-                <textarea placeholder="Sua mensagem" name="message"></textarea>
-                <button class="btn buttons" type="submit" name="submit">Enviar</button>
-            </form>
-        </div>
-
-        <h5 style="color: gray; margin-top: 100px;">Copyright&copy; 2024 DeepCode &reg;
-        </h5>
     </center>
+
+    <center>
+        <section class="suporte-main">
+            <img src="images/suporte.jpg" alt="">
+            <form action="">
+                <h1>Fale conosco</h1>
+                <h3>Nos diga quem você é, sua empresa e suas necessidades</h3>
+                <input type="text" placeholder="Nome">
+                <input type="number" placeholder="WhatsApp">
+                <input type="email" placeholder="E-mail">
+            </form>
+        </section>
+    </center>
+   
 
     <a href="https://wa.me/5587991974484" target="_blank" class="whatsapp-button">
         <i class="bi bi-whatsapp"></i>
