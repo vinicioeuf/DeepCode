@@ -168,32 +168,45 @@
             </div>
 
         </center>
+    
+        <section class="process-main">
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
 
-        <div class="work-main">
-            <div class="work-exemple">
-                <img width="90" src="/images/icon-briefing.png" alt="">
-                <strong>Briefing</strong>
-                <span>Para iniciar, você preencherá um formulário para nos contar melhor sobre você e sua empresa. Após isso, teremos uma reunição para destacar as necessidades e preferências</span>
-            </div>
+<dotlottie-player src="https://lottie.host/2e020470-2e36-48f2-aa5e-eaa2ea6c1d46/8hIhyVHLLn.json" background="transparent" speed="1" class="home-img process-img" loop autoplay></dotlottie-player>
+            <div class="work-main">
+                <div class="work-exemple">
+                <i class="bi bi-info-circle-fill"></i>
+                    <strong>Briefing</strong>
+                    <span>Para iniciar, você preencherá um formulário para nos contar melhor sobre você e sua empresa. Após isso, teremos uma reunição para destacar as necessidades e preferências</span>
+                    <button class="btn">Fale Conosco</button>
 
-            <div class="work-exemple">
-                <i class="bi bi-code-slash"></i>
-                <strong>Desenvolvimento</strong>
-                <span>Ao pegar suas informações, o desenvolvimento da sua plataforma será executado</span>
+                </div>
+    
+                <div class="work-exemple">
+                    <i class="bi bi-code-slash"></i>
+                    <strong>Desenvolvimento</strong>
+                    <span>Ao pegar suas informações, o desenvolvimento da sua plataforma será executado</span>
+                    <button class="btn">Fale Conosco</button>
+                    
+                </div>
+    
+                <div class="work-exemple">
+                    <i class="bi bi-globe"></i>
+                    <strong>Publicação</strong>
+                    <span>Após o a conslusão do desenvolvimento da plataforma, será publicado a mesma em sua devida hospedagem e domínio</span>
+                    <button class="btn">Fale Conosco</button>
+                    
+                </div>
+    
+                <div class="work-exemple">
+                <i class="bi bi-kanban"></i>
+                    <strong>Acompanhamento</strong>
+                    <span>Em caso de pequenas ou grandes alterações, estaremos aqui para você!</span>
+                    <button class="btn">Fale Conosco</button>
+                    
+                </div>
             </div>
-
-            <div class="work-exemple">
-                <i class="bi bi-globe"></i>
-                <strong>Publicação</strong>
-                <span>Após o a conslusão do desenvolvimento da plataforma, será publicado a mesma em sua devida hospedagem e domínio</span>
-            </div>
-
-            <div class="work-exemple">
-                <img width="100" src="/images/icon-support.png" alt="">
-                <strong>Acompanhamento</strong>
-                <span>Em caso de pequenas ou grandes alterações, estaremos aqui para você!</span>
-            </div>
-        </div>
+        </section>
         <script>
             document.querySelectorAll('.work-exemple').forEach(card => {
                 card.addEventListener('mousemove', (e) => {
@@ -292,7 +305,7 @@
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color:#0d4fae;
+            background-color:black;
             color: white;
             border-radius: 50%;
             width: 60px;
@@ -306,8 +319,8 @@
         }
 
         .whatsapp-button:hover {
-            background-color: #128c7e;
-            color: white;
+            background-color: gray;
+            color: black;
             text-decoration: none;
         }
     </style>
