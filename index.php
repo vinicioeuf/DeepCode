@@ -61,7 +61,7 @@
             </div>
             <div>
                 <a class="btn btn-primary buttons-nav" href="https://wa.me/5587991974484" role="button">Fale Conosco</a>
-                
+
 
             </div>
         </div>
@@ -89,9 +89,9 @@
                 </div>
 
             </div>
-            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
             <dotlottie-player class="home-img" src="https://lottie.host/a8c5ffc9-82ed-4ba2-9379-7119214f66a5/gUDoGKKgBI.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
-            
+
 
 
         </div>
@@ -99,27 +99,28 @@
 
 
 
-<center>
-    <div id="servicos" class="titles">
-        <h1 style="font-weight: bold;">Serviços</h1>
-        <div style="display: flex; gap: 10px;">
-                    <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
-                    <hr style="height: 9px; width: 50px; border: none; background-color: gray; border-radius:10px">
-                </div>
-        <span style="color: gray;">Tudo que sua empresa precisa em um só lugar</span>
-        
-    </div>
+    <center>
+        <div id="servicos" class="titles">
+            <h1 style="font-weight: bold;">Serviços</h1>
+            <div style="display: flex; gap: 10px;">
+                <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
+                <hr style="height: 9px; width: 50px; border: none; background-color: gray; border-radius:10px">
+            </div>
+            <span style="color: gray;">Tudo que sua empresa precisa em um só lugar</span>
 
-</center>
+        </div>
+
+    </center>
 
 
     <center class="mt-5">
         <div class="service-main-1">
-        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
 
-<dotlottie-player src="https://lottie.host/e97f443a-596e-4043-8f11-bbdce8b386af/8qazOHdz2c.json" background="transparent" speed="1" class="home-img" loop autoplay></dotlottie-player>
+            <dotlottie-player src="https://lottie.host/e97f443a-596e-4043-8f11-bbdce8b386af/8qazOHdz2c.json" background="transparent" speed="1" class="home-img" loop autoplay></dotlottie-player>
             <div class="service-desc-1">
-                <strong><font style="color: #0d4fae;">Sites</font> rápidos, responsivos e profissionais
+                <strong>
+                    <font style="color: #0d4fae;">Sites</font> rápidos, responsivos e profissionais
                 </strong>
                 <div style="display: flex; gap: 10px;">
                     <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
@@ -138,7 +139,8 @@
     <center>
         <div class="service-main-2">
             <div class="service-desc-2">
-                <strong><font style="color: #0d4fae;">Aplicativos</font> com a melhor fluidez e compatibilidade
+                <strong>
+                    <font style="color: #0d4fae;">Aplicativos</font> com a melhor fluidez e compatibilidade
                 </strong>
                 <div style="display: flex; gap: 10px;">
                     <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
@@ -164,46 +166,46 @@
                     <hr style="height: 9px; width: 50px; border: none; background-color: gray; border-radius:10px">
                 </div>
                 <span style="color: gray;">Acompanhe nosso processo de desenvolvimento da sua plataforma</span>
-                
+
             </div>
 
         </center>
-    
-        <section class="process-main">
-        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
 
-<dotlottie-player src="https://lottie.host/2e020470-2e36-48f2-aa5e-eaa2ea6c1d46/8hIhyVHLLn.json" background="transparent" speed="1" class="home-img process-img" loop autoplay></dotlottie-player>
+        <section class="process-main">
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+
+            <dotlottie-player src="https://lottie.host/2e020470-2e36-48f2-aa5e-eaa2ea6c1d46/8hIhyVHLLn.json" background="transparent" speed="1" class="home-img process-img" loop autoplay></dotlottie-player>
             <div class="work-main">
                 <div class="work-exemple">
-                <i class="bi bi-info-circle-fill"></i>
+                    <i class="bi bi-info-circle-fill"></i>
                     <strong>Briefing</strong>
                     <span>Para iniciar, você preencherá um formulário para nos contar melhor sobre você e sua empresa. Após isso, teremos uma reunição para destacar as necessidades e preferências</span>
                     <button class="btn">Fale Conosco</button>
 
                 </div>
-    
+
                 <div class="work-exemple">
                     <i class="bi bi-code-slash"></i>
                     <strong>Desenvolvimento</strong>
                     <span>Ao pegar suas informações, o desenvolvimento da sua plataforma será executado</span>
                     <button class="btn">Fale Conosco</button>
-                    
+
                 </div>
-    
+
                 <div class="work-exemple">
                     <i class="bi bi-globe"></i>
                     <strong>Publicação</strong>
                     <span>Após o a conslusão do desenvolvimento da plataforma, será publicado a mesma em sua devida hospedagem e domínio</span>
                     <button class="btn">Fale Conosco</button>
-                    
+
                 </div>
-    
+
                 <div class="work-exemple">
-                <i class="bi bi-kanban"></i>
+                    <i class="bi bi-kanban"></i>
                     <strong>Acompanhamento</strong>
                     <span>Em caso de pequenas ou grandes alterações, estaremos aqui para você!</span>
                     <button class="btn">Fale Conosco</button>
-                    
+
                 </div>
             </div>
         </section>
@@ -231,14 +233,14 @@
     </center>
 
     <div class="titles-2">
-                <h1 style=" font-weight: bold;">Afiliados</h1>
-                <div style="display: flex; gap: 10px;">
-                    <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
-                    <hr style="height: 9px; width: 50px; border: none; background-color: gray; border-radius:10px">
-                </div>
-                <span style="color: gray;">Veja como você pode ganhar dinheiro conosco</span>
-                
-            </div>
+        <h1 style=" font-weight: bold;">Afiliados</h1>
+        <div style="display: flex; gap: 10px;">
+            <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
+            <hr style="height: 9px; width: 50px; border: none; background-color: gray; border-radius:10px">
+        </div>
+        <span style="color: gray;">Veja como você pode ganhar dinheiro conosco</span>
+
+    </div>
     <center>
         <div class="service-main-2">
             <div class="service-desc-2">
@@ -249,15 +251,91 @@
                     <hr style="height: 9px; width: 50px; border: none; background-color: gray; border-radius:10px">
                 </div>
                 <span>Gostaria de ganhar dinheiro conosco? Claro que sim, não é? Conheça nossos serviços e valores e ganhe uma porcentagem no valor da aplicação + uma taxa mensal em caso de assinatura de um dos planos de performance.
-                     Quer saber como fazer isso? Basta clicar no botão abaixo.
+                    Quer saber como fazer isso? Basta clicar no botão abaixo.
                 </span>
                 <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Ser afiliado</a>
             </div>
-            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
 
-    <dotlottie-player src="https://lottie.host/c3155bf3-2718-4f0b-8994-d4e9d0d6cea3/Sr3uRIzxmF.json" class="home-img" background="transparent" speed="1" loop autoplay></dotlottie-player>
+            <dotlottie-player src="https://lottie.host/c3155bf3-2718-4f0b-8994-d4e9d0d6cea3/Sr3uRIzxmF.json" class="home-img" background="transparent" speed="1" loop autoplay></dotlottie-player>
         </div>
     </center>
+
+    <center>
+        <div id="servicos" class="titles">
+            <h1 style="font-weight: bold;">Conheça nossos planos</h1>
+            <div style="display: flex; gap: 10px;">
+                <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
+                <hr style="height: 9px; width: 50px; border: none; background-color: gray; border-radius:10px">
+            </div>
+            <span style="color: gray;">Fornecemos todas as configurações, suportes e melhorias para a sua aplicação a partir dos nossos planos de performance</span>
+
+        </div>
+
+    </center>
+
+    <section class="planos-main">
+
+        <div class="planos-exemple">
+            <h2>Presença digital</h2>
+            <h6>Recomendado: 3 Sites | 5 GB (cada)</h6>
+            <h1>R$99,90/mês</h1>
+            <ul>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Domínio próprio</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Hospedagem dedicada (Cloud)</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Certificado SSL (HTTPS)</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Backup quinzenal</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Suporte via Email</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>CDN</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>PageSpeed</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>1 manutenção por mês</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>E-mails corporativos</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Implementação de técnicas de performance e estratégias de SEO</span></li>
+            </ul>
+
+            <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Escolher plano</a>
+        </div>
+
+        <div class="planos-exemple">
+            <h2>Presença digital</h2>
+            <h6>Recomendado: 3 Sites | 5 GB (cada)</h6>
+            <h1>R$99,90/mês</h1>
+            <ul>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Domínio próprio</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Hospedagem dedicada (Cloud)</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Certificado SSL (HTTPS)</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Backup quinzenal</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Suporte via Email</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>CDN</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>PageSpeed</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>1 manutenção por mês</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>E-mails corporativos</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Implementação de técnicas de performance e estratégias de SEO</span></li>
+            </ul>
+
+            <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Escolher plano</a>
+        </div>
+
+        <div class="planos-exemple">
+            <h2>Presença digital</h2>
+            <h6>Recomendado: 3 Sites | 5 GB (cada)</h6>
+            <h1>R$99,90/mês</h1>
+            <ul>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Domínio próprio</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Hospedagem dedicada (Cloud)</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Certificado SSL (HTTPS)</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Backup quinzenal</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Suporte via Email</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>CDN</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>PageSpeed</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>1 manutenção por mês</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>E-mails corporativos</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Implementação de técnicas de performance e estratégias de SEO</span></li>
+            </ul>
+
+            <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Escolher plano</a>
+        </div>
+    </section>
 
     <center>
         <div class="titles-2" id="suporte">
@@ -305,7 +383,7 @@
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color:black;
+            background-color: black;
             color: white;
             border-radius: 50%;
             width: 60px;
