@@ -288,7 +288,7 @@
                 <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Suporte via Email</span></li>
                 <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>CDN</span></li>
                 <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>PageSpeed</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>1 manutenção por mês</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>1 manutenção por mês</span></li>
                 <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>E-mails corporativos</span></li>
                 <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Implementação de técnicas de performance e estratégias de SEO</span></li>
             </ul>
@@ -297,18 +297,18 @@
         </div>
 
         <div class="planos-exemple">
-            <h2>Presença digital</h2>
-            <h6>Recomendado: 3 Sites | 5 GB (cada)</h6>
-            <h1>R$99,90/mês</h1>
+            <h2>Performance Pro</h2>
+            <h6>Recomendado: 5 Sites | 5 GB (cada)</h6>
+            <h1>R$289,90/mês</h1>
             <ul>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Domínio próprio</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Hospedagem dedicada (Cloud)</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Hospedagem dedicada (Cloud)</span></li>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Certificado SSL (HTTPS)</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Backup quinzenal</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Suporte via Email</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Backup semanal</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Suporte via Email</span></li>
                 <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>CDN</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>PageSpeed</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>1 manutenção por mês</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>PageSpeed</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i>3 manutenção por mês</span></li>
                 <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>E-mails corporativos</span></li>
                 <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Implementação de técnicas de performance e estratégias de SEO</span></li>
             </ul>
@@ -317,20 +317,20 @@
         </div>
 
         <div class="planos-exemple">
-            <h2>Presença digital</h2>
-            <h6>Recomendado: 3 Sites | 5 GB (cada)</h6>
-            <h1>R$99,90/mês</h1>
+            <h2>Máxima Performance</h2>
+            <h6>Recomendado: 8 Sites | 5 GB (cada)</h6>
+            <h1>R$359,90/mês</h1>
             <ul>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Domínio próprio</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Hospedagem dedicada (Cloud)</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Hospedagem dedicada (Cloud)</span></li>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Certificado SSL (HTTPS)</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Backup quinzenal</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Suporte via Email</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>CDN</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>PageSpeed</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>1 manutenção por mês</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>E-mails corporativos</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Implementação de técnicas de performance e estratégias de SEO</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Backup semanal</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Suporte via Email</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>CDN</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>PageSpeed</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>5 manutenção por mês</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>E-mails corporativos</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Implementação de técnicas de performance e estratégias de SEO</span></li>
             </ul>
 
             <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Escolher plano</a>
@@ -415,8 +415,8 @@
         </div>
     </center>
 
-    <center>
-        <p>Copyright 2024 &copy; DeeoCode</p>
+    <center style="position: relative; margin-bottom: 50px">
+        <p>Copyright 2024 &copy; DeepCode</p>
     </center>
     
 

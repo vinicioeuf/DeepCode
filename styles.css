@@ -437,12 +437,9 @@ ul{
         display:none;
     }
 
-    .logo-pc{
-        display: none;
-    }
-
+    
     .logo-sp{
-        display: inline;
+        display: none;
         
     }
 
