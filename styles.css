@@ -325,24 +325,30 @@ ul{
 
 
 .suporte-main {
+    width: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 50px;
     position: relative; /* Necessário para o posicionamento absoluto do formulário */
 }
 
 .suporte-main img {
     border-radius: 20px;
-    width: 600px !important;
+    width: 680px !important;
     position: relative; /* A imagem precisa de position relative para o formulário se basear nela */
+    left: 13%;
+    z-index: 999;
+
 }
 
 .suporte-main form {
+    width: 40%;
     border: 1px solid rgba(234, 234, 234, 0.786);
     box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
     z-index: 1000;
-    height: 410px !important;
+    height: 460px !important;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -350,11 +356,78 @@ ul{
     align-items: start;
     padding: 20px;
 
-    position: absolute; /* Formulário será posicionado de forma absoluta */
-    top: 20px; /* Ajuste a altura do formulário */
-    left: 20px; /* Ajuste a posição horizontal do formulário */
+    position: absolute; /* Formulário será posicionado de forma absoluta */ /* Ajuste a altura do formulário */
+    right: 13%; /* Ajuste a posição horizontal do formulário */
     background-color: white; /* Adicione um fundo para o formulário se destacar sobre a imagem */
-    opacity: 0.9; /* Leve transparência, se desejado */
+    
+}
+
+.suport-inputs{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.suport-inputs input{
+    width: 45%;
+    height: 50px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    padding: 8px;
+
+
+}
+
+.suport-inputs select{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    padding: 8px;
+    color: gray;
+}
+
+.about-main{
+   
+    
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+
+}
+
+.about-main div{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+
+.about-main h3{
+    color: white;
+
+}
+
+.about-main span{
+    color: gray;
+}
+
+.about-home i {
+    color:white;
+}
+
+.about-home-icons {
+    margin-top:0 !important;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
 }
 
 
@@ -561,6 +634,95 @@ ul{
         font-size: 7px;
         
     }
+
     
+    
+}
+
+@media (max-width: 1354px) {
+
+
+    .suporte-main {
+        width: 100%;
+        margin-top: 50px;
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .suporte-main img {
+        border-start-end-radius: 20px;
+        width: 100% !important;
+        position: static;
+        
+
+    
+    }
+    
+    .suporte-main form {
+        width: 100%;
+        border: 1px solid rgba(234, 234, 234, 0.786);
+        box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+        height: 460px !important;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 20px;
+        position: absolute;
+        top: 90%;
+        z-index: 1000;
+        right: 0%;
+        
+    
+        
+        background-color: white; /* Adicione um fundo para o formulário se destacar sobre a imagem */
+        
+    }
+
+    .suporte-main form span{
+        text-align: left;
+        font-weight: 300;
+    }
+
+    .about-main{
+   
+    
+        width: 90%;
+    
+    }
+    
+    .about-main{
+        padding: 50px;
+        margin-top: 550px !important;
+        display: flex; 
+        justify-content: space-between;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .about-main div{
+        width: 300px !important;
+    }
+
+    .about-home{
+        margin-top: 0 !important;
+    }
+
+    .about-service{
+        margin-top: 0 !important;
+    }
+
+    .about-politic{
+        margin-top: 0 !important;
+    }
+
+    .about-partners{
+        margin-top: 0 !important;
+    }
+
 }
 

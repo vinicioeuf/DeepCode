@@ -355,15 +355,70 @@
         <section class="suporte-main">
             <img src="images/suporte.jpg" alt="">
             <form action="">
-                <h1>Fale conosco</h1>
-                <h3>Nos diga quem você é, sua empresa e suas necessidades</h3>
-                <input type="text" placeholder="Nome">
-                <input type="number" placeholder="WhatsApp">
-                <input type="email" placeholder="E-mail">
+                <h3>Fale conosco</h3>
+                <span style="color: gray;">Nos diga quem você é, sua empresa e suas necessidades</span>
+                <div class="suport-inputs">
+                    <input type="text" placeholder="Nome">
+                    <input type="number" placeholder="WhatsApp">
+                    <input type="email" placeholder="E-mail">
+                    <input type="email" placeholder="Empresa">
+                    <select name="" id=""> 
+                        <option value="" disabled selected>Qual a necessidade da sua empresa?</option>
+                        <option value="">Preciso de um site para alcançar meu espaço no digital</option>
+                        <option value="">Já tenho site! Quero alavancar o alcance para mais pessoas</option>
+                        <option value="">Outros</option>
+                    </select>
+
+                    <div>
+                        <input style="width: 10px; height:10px" type="checkbox"> 
+                        <span>Li e concordo com a <a href="">Política de Privacidade</a> e os <a href="">Termos de site</a>.</span>
+                    </div>
+                    <button style="width: 100%;" class="buttons btn">Enviar mensagem</button>
+                </div>
             </form>
         </section>
     </center>
    
+    <center style="background-color: black;bottom: 100px;
+   position: relative;">
+        <div class="about-main">
+                <div class="about-home">
+                    <img width="100" src="images/deepcode_black.png" alt="">
+                    <span align="left">Agência de desenvolvimento de sites e aplicativos</span>
+                    <div class="about-home-icons">
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-whatsapp"></i>
+                    <i class="bi bi-envelope"></i>
+                    </div>
+                </div>
+    
+                <div class="about-service">
+                    <h3>Serviços</h3>
+                    <span>Criação de sites</span>
+                    <span>Criação de aplicativos</span>
+                    <span>Afiliação</span>
+                    <span>Planos de performance</span>
+    
+                </div>
+    
+                <div class="about-politic">
+                    <h3>Políticas</h3>
+                    <span>Privacidade</span>
+                    <span>Termos de uso</span>
+                
+                </div>
+    
+                <div  class="about-partners">
+                <h3>Parceiros</h3>
+                    <img width="100" src="images/cloudez_partner.png" alt="">
+                </div>
+        </div>
+    </center>
+
+    <center>
+        <p>Copyright 2024 &copy; DeeoCode</p>
+    </center>
+    
 
     <a href="https://wa.me/5587991974484" target="_blank" class="whatsapp-button">
         <i class="bi bi-whatsapp"></i>
