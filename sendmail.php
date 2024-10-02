@@ -35,8 +35,18 @@ try {
     
     $mail->isHTML(true);    
 
-    $mail->Subject = 'Voce recebeu uma mensagem na DeepCode';
-    $mail->Body = "$nome com o email $email com a empresa nomeada $empresa e o número de whatsapp $whats tem a seguinte necessidade: $necessidade";
+    $mail->Subject = 'Você recebeu uma mensagem na DeepCode';
+    $mail->Body = "
+    <strong>Nome:</strong> $nome <br>
+    <strong>Email:</strong> $email <br>
+    <strong>Empresa:</strong> $empresa <br>
+    <strong>WhatsApp:</strong> $whats <br><br>
+    <strong>Necessidade:</strong> <br> $necessidade <br><br>
+
+    <h5>OBS: $nome concordou com as políticas de privacidade e os termos de uso do site.</h5>
+";
+
+
     
     $mail->send();
     echo "<script>window.alert('Obrigado por entrar em contato! Em breve entraremos em contato com você.')

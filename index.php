@@ -361,16 +361,16 @@ $dotenv->load();
                     <input type="text" placeholder="Nome" name="nome">
                     <input type="number" placeholder="WhatsApp" name="whats">
                     <input type="email" placeholder="E-mail" name="email">
-                    <input type="email" placeholder="Empresa" name="empresa">
+                    <input type="text" placeholder="Empresa" name="empresa">
                     <select name="necessidade" id=""> 
                         <option value="" disabled selected>Qual a necessidade da sua empresa?</option>
-                        <option value="">Preciso de um site para alcançar meu espaço no digital</option>
-                        <option value="">Já tenho site! Quero alavancar o alcance para mais pessoas</option>
-                        <option value="">Outros</option>
+                        <option value="Preciso de um site para alcançar meu espaço no digital">Preciso de um site para alcançar meu espaço no digital</option>
+                        <option value="Já tenho site! Quero alavancar o alcance para mais pessoas">Já tenho site! Quero alavancar o alcance para mais pessoas</option>
+                        <option value="Outros">Outros</option>
                     </select>
 
                     <div>
-                        <input style="width: 10px; height:10px" type="checkbox"> 
+                        <input style="width: 10px; height:10px" type="checkbox" required> 
                         <span>Li e concordo com a <a href="">Política de Privacidade</a> e os <a href="">Termos de site</a>.</span>
                     </div>
                     <button style="width: 100%;" class="buttons btn">Enviar mensagem</button>
