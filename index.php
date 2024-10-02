@@ -1,8 +1,8 @@
 <?php
 //Load Composer's autoloader
-//require 'vendor/autoload.php';
-//$dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__);
-//$dotenv->load();
+require 'vendor/autoload.php';
+$dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__);
+$dotenv->load();
 // echo "Recuperar o ambiente: " . $_ENV['APP_ENV'] . "<br>";
 ?>
 <!DOCTYPE html>
@@ -354,15 +354,15 @@
     <center>
         <section class="suporte-main">
             <img src="images/suporte.jpg" alt="">
-            <form action="">
+            <form action="sendmail.php" method="post">
                 <h3>Fale conosco</h3>
                 <span style="color: gray;">Nos diga quem você é, sua empresa e suas necessidades</span>
                 <div class="suport-inputs">
-                    <input type="text" placeholder="Nome">
-                    <input type="number" placeholder="WhatsApp">
-                    <input type="email" placeholder="E-mail">
-                    <input type="email" placeholder="Empresa">
-                    <select name="" id=""> 
+                    <input type="text" placeholder="Nome" name="nome">
+                    <input type="number" placeholder="WhatsApp" name="whats">
+                    <input type="email" placeholder="E-mail" name="email">
+                    <input type="email" placeholder="Empresa" name="empresa">
+                    <select name="necessidade" id=""> 
                         <option value="" disabled selected>Qual a necessidade da sua empresa?</option>
                         <option value="">Preciso de um site para alcançar meu espaço no digital</option>
                         <option value="">Já tenho site! Quero alavancar o alcance para mais pessoas</option>

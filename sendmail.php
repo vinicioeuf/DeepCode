@@ -11,7 +11,11 @@ $dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__);
 $dotenv->load();
 $nome = addslashes($_POST["nome"]);
 $email = addslashes($_POST["email"]);
-$message = addslashes($_POST["message"]);
+$empresa = addslashes($_POST["empresa"]);
+$necessidade = addslashes($_POST["necessidade"]);
+$whats = addslashes($_POST["whats"]);
+
+
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
@@ -32,7 +36,7 @@ try {
     $mail->isHTML(true);    
 
     $mail->Subject = 'Voce recebeu uma mensagem na DeepCode';
-    $mail->Body = "$nome com o email $email enviou a seguinte mensagem: $message";
+    $mail->Body = "$nome com o email $email com a empresa nomeada $empresa e o número de whatsapp $whats tem a seguinte necessidade: $necessidade";
     
     $mail->send();
     echo "<script>window.alert('Obrigado por entrar em contato! Em breve entraremos em contato com você.')
