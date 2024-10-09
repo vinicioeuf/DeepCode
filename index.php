@@ -4,6 +4,7 @@ require 'vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__);
 $dotenv->load();
 // echo "Recuperar o ambiente: " . $_ENV['APP_ENV'] . "<br>";
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -33,9 +34,6 @@ $dotenv->load();
                 <a class="navbar-brand ms-3 logo-pc" href="#">
                     <img src="images/logos_deepcode_blackl.png" alt="Logo" width="70" class="d-inline-block align-top">
                 </a>
-                <a class="navbar-brand ms-3 logo-sp" href="#">
-                    <img src="images/deepcode_black_2.png" alt="Logo" width="150" class="d-inline-block align-top">
-                </a>
             </div>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
@@ -49,10 +47,10 @@ $dotenv->load();
                         <a class="nav-link" href="#como-trabalhamos">Como trabalhamos?</a>
                     </li>
                     <li class="nav-item ms-4">
-                        <a class="nav-link" href="#carouselExampleIndicators">Afiliados</a>
+                        <a class="nav-link" href="#afiliados">Afiliados</a>
                     </li>
                     <li class="nav-item ms-4">
-                        <a class="nav-link" href="#carouselExampleIndicators">Planos</a>
+                        <a class="nav-link" href="#planos">Planos</a>
                     </li>
                     <li class="nav-item ms-4">
                         <a class="nav-link" href="#suporte">Suporte</a>
@@ -67,7 +65,7 @@ $dotenv->load();
         </div>
     </nav>
 
-    <center>
+    <center id="home">
         <div class="home-main" id="home">
             <div class="home-desc">
                 <strong>Desenvolvimento de <font style="color: #0d4fae;">Sites</font> e <font style="color: #0d4fae;">Aplicativos</font></strong>
@@ -84,7 +82,7 @@ $dotenv->load();
                 </span>
                 <div>
                     <a class="btn buttons mb-1" href="https://wa.me/5587991974484" role="button">Fale Conosco</a>
-                    <a class="btn mb-1 btn-primary buttons-nav-alter" href="https://wa.me/5587991974484" role="button">Nossos Serviços</a>
+                    <a class="btn mb-1 btn-primary buttons-nav-alter" href="#servicos" role="button">Nossos Serviços</a>
 
                 </div>
 
@@ -99,7 +97,7 @@ $dotenv->load();
 
 
 
-    <center>
+    <center id="servicos">
         <div id="servicos" class="titles">
             <h1 style="font-weight: bold;">Serviços</h1>
             <div style="display: flex; gap: 10px;">
@@ -179,8 +177,8 @@ $dotenv->load();
                 <div class="work-exemple">
                     <i class="bi bi-info-circle-fill"></i>
                     <strong>Briefing</strong>
-                    <span>Para iniciar, você preencherá um formulário para nos contar melhor sobre você e sua empresa. Após isso, teremos uma reunição para destacar as necessidades e preferências</span>
-                    <button class="btn">Fale Conosco</button>
+                    <span>Para iniciar, required teremos uma reunição para destacar as necessidades</span>
+                    <button class="btn buttons"><a style="text-decoration: none; color: white;" href="https://wa.me/5587991974484">Fale Conosco</a></button>
 
                 </div>
 
@@ -188,7 +186,7 @@ $dotenv->load();
                     <i class="bi bi-code-slash"></i>
                     <strong>Desenvolvimento</strong>
                     <span>Ao pegar suas informações, o desenvolvimento da sua plataforma será executado</span>
-                    <button class="btn">Fale Conosco</button>
+                    <button class="btn buttons"><a style="text-decoration: none; color: white;" href="https://wa.me/5587991974484">Fale Conosco</a></button>
 
                 </div>
 
@@ -196,7 +194,7 @@ $dotenv->load();
                     <i class="bi bi-globe"></i>
                     <strong>Publicação</strong>
                     <span>Após o a conslusão do desenvolvimento da plataforma, será publicado a mesma em sua devida hospedagem e domínio</span>
-                    <button class="btn">Fale Conosco</button>
+                    <button class="btn buttons"><a style="text-decoration: none; color: white;" href="https://wa.me/5587991974484">Fale Conosco</a></button>
 
                 </div>
 
@@ -204,7 +202,7 @@ $dotenv->load();
                     <i class="bi bi-kanban"></i>
                     <strong>Acompanhamento</strong>
                     <span>Em caso de pequenas ou grandes alterações, estaremos aqui para você!</span>
-                    <button class="btn">Fale Conosco</button>
+                    <button class="btn buttons"><a style="text-decoration: none; color: white;" href="https://wa.me/5587991974484">Fale Conosco</a></button>
 
                 </div>
             </div>
@@ -232,7 +230,7 @@ $dotenv->load();
         </script>
     </center>
 
-    <div class="titles-2">
+    <div id="afiliados" class="titles-2">
         <h1 style=" font-weight: bold;">Afiliados</h1>
         <div style="display: flex; gap: 10px;">
             <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
@@ -262,7 +260,7 @@ $dotenv->load();
     </center>
 
     <center>
-        <div id="servicos" class="titles">
+        <div id="planos" class="titles">
             <h1 style="font-weight: bold;">Conheça nossos planos</h1>
             <div style="display: flex; gap: 10px;">
                 <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
@@ -339,7 +337,7 @@ $dotenv->load();
 
 
     <center>
-        <div id="servicos" class="titles">
+        <div id="suporte" class="titles">
             <h1 style="font-weight: bold;">Suporte</h1>
             <div style="display: flex; gap: 10px;">
                 <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
@@ -358,20 +356,21 @@ $dotenv->load();
                 <h3>Fale conosco</h3>
                 <span style="color: gray;">Nos diga quem você é, sua empresa e suas necessidades</span>
                 <div class="suport-inputs">
-                    <input type="text" placeholder="Nome" name="nome">
+                    <input type="text" placeholder="Nome" name="nome" required>
                     <input type="number" placeholder="WhatsApp" name="whats">
-                    <input type="email" placeholder="E-mail" name="email">
+                    <input type="email" placeholder="E-mail" name="email" required>
                     <input type="text" placeholder="Empresa" name="empresa">
-                    <select name="necessidade" id=""> 
+                    <select name="necessidade" id="" required> 
                         <option value="" disabled selected>Qual a necessidade da sua empresa?</option>
                         <option value="Preciso de um site para alcançar meu espaço no digital">Preciso de um site para alcançar meu espaço no digital</option>
                         <option value="Já tenho site! Quero alavancar o alcance para mais pessoas">Já tenho site! Quero alavancar o alcance para mais pessoas</option>
+                        <option value="Quero ser afiliado da Deepcode">Quero ser afiliado da Deepcode</option>
                         <option value="Outros">Outros</option>
                     </select>
 
                     <div>
                         <input style="width: 10px; height:10px" type="checkbox" required> 
-                        <span>Li e concordo com a <a href="">Política de Privacidade</a> e os <a href="">Termos de site</a>.</span>
+                        <span>Li e concordo com a <a href="politics.php">Política de Privacidade</a> e os <a href="termos.php">Termos de site</a>.</span>
                     </div>
                     <button style="width: 100%;" class="buttons btn">Enviar mensagem</button>
                 </div>
@@ -379,7 +378,7 @@ $dotenv->load();
         </section>
     </center>
    
-    <center style="background-color: black;bottom: 100px;
+    <center style="background-color: black; margin: 0 auto;
    position: relative;">
         <div class="about-main">
                 <div class="about-home">
@@ -413,11 +412,13 @@ $dotenv->load();
                     <img width="100" src="images/cloudez_partner.png" alt="">
                 </div>
         </div>
+            
+        <br><br>
+        <div style="width: 100%;">
+            <span style="text-align: center; color:white; margin-bottom: 10px;">Copyright 2024 &copy; DeepCode</span>
+        </div>
     </center>
 
-    <center style="position: relative; margin-bottom: 50px">
-        <p>Copyright 2024 &copy; DeepCode</p>
-    </center>
     
 
     <a href="https://wa.me/5587991974484" target="_blank" class="whatsapp-button">
