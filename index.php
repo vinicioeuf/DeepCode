@@ -25,14 +25,14 @@ $dotenv->load();
 
 <body >
     <nav class="navbar navbar-expand-lg  mt-2">
-        <div style="width: 80%;" class="container-fluid">
+        <div style="width: 80%; padding: 0;" class="container-fluid">
             <div class="d-flex align-items-center justify-content-between">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand ms-3 logo-pc" href="#">
-                    <img src="images/logos_deepcode_blackl.png" alt="Logo" width="70" class="d-inline-block align-top">
+                    <img style="margin-left: 0 ;" src="images/logos_deepcode_blackl.png" alt="Logo" width="70" class="d-inline-block align-top">
                 </a>
             </div>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -370,7 +370,7 @@ $dotenv->load();
 
                     <div>
                         <input style="width: 10px; height:10px" type="checkbox" required> 
-                        <span>Li e concordo com a <a href="politics.php">Política de Privacidade</a> e os <a href="termos.php">Termos de site</a>.</span>
+                        <span>Li e concordo com a <a href="politics.php">Política de Privacidade</a> e os <a href="termos.php">Termos de uso</a> do site.</span>
                     </div>
                     <button style="width: 100%;" class="buttons btn">Enviar mensagem</button>
                 </div>

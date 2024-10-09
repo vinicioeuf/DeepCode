@@ -16,7 +16,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg  mt-2">
-        <div style="width: 80%;" class="container-fluid">
+        <div style="width: 80%; padding: 0;" class="container-fluid">
             <div class="d-flex align-items-center justify-content-between">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -122,7 +122,7 @@
 
                     <div>
                         <input style="width: 10px; height:10px" type="checkbox" required> 
-                        <span>Li e concordo com a <a href="politics.php">Política de Privacidade</a> e os <a href="termos.php">Termos de site</a>.</span>
+                        <span>Li e concordo com a <a href="politics.php">Política de Privacidade</a> e os <a href="termos.php">Termos de uso</a> do site.</span>
                     </div>
                     <button style="width: 100%;" class="buttons btn">Enviar mensagem</button>
                 </div>
