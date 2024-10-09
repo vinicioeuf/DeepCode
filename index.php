@@ -386,8 +386,8 @@ $dotenv->load();
                     <span align="left">Agência de desenvolvimento de sites e aplicativos</span>
                     <div class="about-home-icons">
                     <a href="https://www.instagram.com/agenciadeepcode/"><i class="bi bi-instagram"></i></a>
-                    <a href="https://wa.me/5587991974484"><i class="bi bi-whatsapp"></i>
-                    <a href="https://www.linkedin.com/company/deepcode-ag%C3%AAncia/"><i class="bi bi-linkedin"></i>
+                    <a href="https://wa.me/5587991974484"><i class="bi bi-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/company/deepcode-ag%C3%AAncia/"><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
     
