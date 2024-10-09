@@ -154,8 +154,8 @@
     
                 <div class="about-politic">
                     <h3>Políticas</h3>
-                    <span>Privacidade</span>
-                    <span>Termos de uso</span>
+                    <span><a href="politics.php" style="text-decoration: none; color: gray;">Privacidade</a></span>
+                    <span><a href="termos.php" style="text-decoration: none; color: gray;">Termos de uso</a></span>
                 
                 </div>
     
