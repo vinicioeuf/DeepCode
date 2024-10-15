@@ -274,7 +274,7 @@ $dotenv->load();
             <ul>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Domínio próprio:</strong> Tenha um endereço único e exclusivo para sua marca.</span></li>
                 <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>Hospedagem dedicada (Cloud):</strong> Seu site hospedado de forma segura e com alta performance.</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Certificado SSL (HTTPS):</strong> Navegação segura e confiável para seus usuários.</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>Certificado SSL (HTTPS):</strong> Navegação segura e confiável para seus usuários.</span></li>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Backup mensal:</strong> Proteção constante dos seus dados com backups regulares.</span></li>
                 <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>Suporte via Email:</strong> Respostas rápidas para qualquer necessidade ou problema.</span></li>
                 <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>CDN:</strong> Acelere o carregamento do seu site em qualquer lugar do mundo.</span></li>
