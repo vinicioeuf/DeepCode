@@ -23,7 +23,7 @@ $dotenv->load();
     <title>DeepCode - Agência</title>
 </head>
 
-<body >
+<body>
     <nav class="navbar navbar-expand-lg  mt-2">
         <div style="width: 80%; padding: 0;" class="container-fluid">
             <div class="d-flex align-items-center justify-content-between">
@@ -74,11 +74,7 @@ $dotenv->load();
                     <hr style="height: 9px; width: 50px; border: none; background-color: gray; border-radius:10px">
                 </div>
 
-                <span>Uma agência de desenvolvimento digital focada na criação de sites e aplicativos
-                    personalizados,
-                    combinando design moderno com soluções tecnológicas eficientes.
-                    Entendemos as necessidades de cada cliente e transformamos ideias em experiências digitais de
-                    impacto.
+                <span>Junte-se a nós e transforme suas ideias em resultados! Somos uma agência especializada em criar sites e aplicativos personalizados que fazem seu negócio crescer. Oferecemos soluções tecnológicas eficientes e design moderno, sempre focados nas suas necessidades. Com nossa parceria, você terá uma presença digital de impacto que atrai clientes e impulsiona suas vendas. Vamos criar experiências que elevem seu sucesso no mundo online!
                 </span>
                 <div>
                     <a class="btn buttons mb-1" href="https://wa.me/5587991974484" role="button">Fale Conosco</a>
@@ -124,10 +120,7 @@ $dotenv->load();
                     <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
                     <hr style="height: 9px; width: 50px; border: none; background-color: gray; border-radius:10px">
                 </div>
-                <span>Desenvolvemos sites otimizados para oferecer a melhor experiência ao usuário,
-                    com design responsivo que se adapta perfeitamente a qualquer dispositivo. Nossos sites combinam
-                    estética moderna com funcionalidade,
-                    proporcionando uma presença digital que destaca sua marca de forma profissional e eficiente.
+                <span>Crie um site que vai além da estética! Desenvolvemos plataformas otimizadas para gerar conversões e engajamento, com design responsivo que se adapta perfeitamente a qualquer dispositivo. Dê à sua marca uma presença digital moderna e funcional, que realmente faça diferença e atraia clientes.
                 </span>
                 <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Fale Conosco</a>
             </div>
@@ -144,9 +137,7 @@ $dotenv->load();
                     <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
                     <hr style="height: 9px; width: 50px; border: none; background-color: gray; border-radius:10px">
                 </div>
-                <span>Criamos aplicativos que proporcionam uma experiência de uso suave e intuitiva,
-                    independentemente da plataforma. Com foco em desempenho e usabilidade,
-                    entregamos aplicativos que são rápidos, responsivos e preparados para atender às necessidades dos seus usuários de forma eficaz e eficiente.
+                <span>Desenvolva aplicativos que encantam seus usuários! Focamos em usabilidade e desempenho, criando experiências intuitivas e rápidas. Seja qual for a plataforma, ofereça um aplicativo que não só funciona, mas encanta seus clientes.
                 </span>
                 <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Fale Conosco</a>
             </div>
@@ -177,7 +168,7 @@ $dotenv->load();
                 <div class="work-exemple">
                     <i class="bi bi-info-circle-fill"></i>
                     <strong>Briefing</strong>
-                    <span>Para iniciar, required teremos uma reunição para destacar as necessidades</span>
+                    <span>Para iniciar, teremos uma reunião para destacar as necessidades.</span>
                     <button class="btn buttons"><a style="text-decoration: none; color: white;" href="https://wa.me/5587991974484">Fale Conosco</a></button>
 
                 </div>
@@ -185,7 +176,7 @@ $dotenv->load();
                 <div class="work-exemple">
                     <i class="bi bi-code-slash"></i>
                     <strong>Desenvolvimento</strong>
-                    <span>Ao pegar suas informações, o desenvolvimento da sua plataforma será executado</span>
+                    <span>Ao coletar suas informações, o desenvolvimento da sua plataforma será executado.</span>
                     <button class="btn buttons"><a style="text-decoration: none; color: white;" href="https://wa.me/5587991974484">Fale Conosco</a></button>
 
                 </div>
@@ -193,7 +184,7 @@ $dotenv->load();
                 <div class="work-exemple">
                     <i class="bi bi-globe"></i>
                     <strong>Publicação</strong>
-                    <span>Após o a conslusão do desenvolvimento da plataforma, será publicado a mesma em sua devida hospedagem e domínio</span>
+                    <span>Após o a conclusão do desenvolvimento da plataforma, será publicado a mesma em sua devida hospedagem e domínio.</span>
                     <button class="btn buttons"><a style="text-decoration: none; color: white;" href="https://wa.me/5587991974484">Fale Conosco</a></button>
 
                 </div>
@@ -248,8 +239,7 @@ $dotenv->load();
                     <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
                     <hr style="height: 9px; width: 50px; border: none; background-color: gray; border-radius:10px">
                 </div>
-                <span>Gostaria de ganhar dinheiro conosco? Claro que sim, não é? Conheça nossos serviços e valores e ganhe uma porcentagem no valor da aplicação + uma taxa mensal em caso de assinatura de um dos planos de performance.
-                    Quer saber como fazer isso? Basta clicar no botão abaixo.
+                <span>Quer lucrar com a gente? Conheça nossos serviços e planos de performance! Ganhe uma porcentagem sobre o valor do projeto e uma taxa mensal com assinaturas. É fácil: clique no botão e comece a lucrar conosco!
                 </span>
                 <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Ser afiliado</a>
             </div>
@@ -276,62 +266,76 @@ $dotenv->load();
 
         <div class="planos-exemple">
             <h2>Presença digital</h2>
-            <h6>Recomendado: 3 Sites | 5 GB (cada)</h6>
-            <h1>R$99,90/mês</h1>
+            <center>
+                <h6>Recomendado para: <br><br>
+                    <font style="color: black;">Landing pages<br>Sites institucionais <br> Portfólios pessoais</font>
+                </h6>
+            </center>
             <ul>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Domínio próprio</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Hospedagem dedicada (Cloud)</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Certificado SSL (HTTPS)</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Backup quinzenal</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Suporte via Email</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>CDN</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>PageSpeed</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>1 manutenção por mês</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>E-mails corporativos</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Implementação de técnicas de performance e estratégias de SEO</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Domínio próprio:</strong> Tenha um endereço único e exclusivo para sua marca.</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>Hospedagem dedicada (Cloud):</strong> Seu site hospedado de forma segura e com alta performance.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Certificado SSL (HTTPS):</strong> Navegação segura e confiável para seus usuários.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Backup mensal:</strong> Proteção constante dos seus dados com backups regulares.</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>Suporte via Email:</strong> Respostas rápidas para qualquer necessidade ou problema.</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>CDN:</strong> Acelere o carregamento do seu site em qualquer lugar do mundo.</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>PageSpeed:</strong> Otimização para garantir a navegação mais rápida possível.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Manutenção mensal:</strong> Atualizações e ajustes periódicos para manter tudo funcionando bem.</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>E-mails corporativos:</strong> E-mails personalizados com o seu nome de domínio.</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>Implementação de técnicas de performance e estratégias de SEO:</strong> Melhor desempenho e maior visibilidade nos buscadores.</span></li>
+
+
             </ul>
 
-            <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Escolher plano</a>
+
         </div>
 
         <div class="planos-exemple">
             <h2>Performance Pro</h2>
-            <h6>Recomendado: 5 Sites | 5 GB (cada)</h6>
-            <h1>R$289,90/mês</h1>
+            <center>
+                <h6>Recomendado para: <br><br>
+                    <font style="color: black;">Blogs<br>Portal de notícias <br> Sistema de pedidos</font>
+                </h6>
+            </center>
             <ul>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Domínio próprio</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Hospedagem dedicada (Cloud)</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Certificado SSL (HTTPS)</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Backup semanal</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Suporte via Email</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>CDN</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>PageSpeed</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i>3 manutenção por mês</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>E-mails corporativos</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span>Implementação de técnicas de performance e estratégias de SEO</span></li>
+            <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Domínio próprio:</strong> Tenha um endereço único e exclusivo para sua marca.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Hospedagem dedicada (Cloud):</strong> Seu site hospedado de forma segura e com alta performance.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Certificado SSL (HTTPS):</strong> Navegação segura e confiável para seus usuários.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Backup quinzenal:</strong> Proteção constante dos seus dados com backups regulares.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Suporte via Email:</strong> Respostas rápidas para qualquer necessidade ou problema.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>CDN:</strong> Acelere o carregamento do seu site em qualquer lugar do mundo.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>PageSpeed:</strong> Otimização para garantir a navegação mais rápida possível.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Manutenção quinzenal:</strong> Atualizações e ajustes regulares para manter tudo funcionando bem.</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>E-mails corporativos:</strong> E-mails personalizados com o seu nome de domínio.</span></li>
+                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>Implementação de técnicas de performance e estratégias de SEO:</strong> Melhor desempenho e maior visibilidade nos buscadores.</span></li>
+
             </ul>
 
-            <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Escolher plano</a>
+
         </div>
 
         <div class="planos-exemple">
             <h2>Máxima Performance</h2>
-            <h6>Recomendado: 8 Sites | 5 GB (cada)</h6>
-            <h1>R$359,90/mês</h1>
+            <center>
+                <h6>Recomendado para: <br><br>
+                    <font style="color: black;">E-commerce<br>Aplicativos <br> Sistema de gestão</font>
+                </h6>
+            </center>
             <ul>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Domínio próprio</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Hospedagem dedicada (Cloud)</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Certificado SSL (HTTPS)</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Backup semanal</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Suporte via Email</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>CDN</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>PageSpeed</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>5 manutenção por mês</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>E-mails corporativos</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span>Implementação de técnicas de performance e estratégias de SEO</span></li>
+            <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Domínio próprio:</strong> Tenha um endereço único e exclusivo para sua marca.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Hospedagem dedicada (Cloud):</strong> Seu site hospedado de forma segura e com alta performance.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Certificado SSL (HTTPS):</strong> Navegação segura e confiável para seus usuários.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Backup semanal:</strong> Proteção constante dos seus dados com backups regulares.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Suporte via Email:</strong> Respostas rápidas para qualquer necessidade ou problema.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>CDN:</strong> Acelere o carregamento do seu site em qualquer lugar do mundo.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>PageSpeed:</strong> Otimização para garantir a navegação mais rápida possível.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Manutenção semanal:</strong> Atualizações e ajustes constantes para manter tudo funcionando bem.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>E-mails corporativos:</strong> E-mails personalizados com o seu nome de domínio.</span></li>
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Implementação de técnicas de performance e estratégias de SEO:</strong> Melhor desempenho e maior visibilidade nos buscadores.</span></li>
+
+
             </ul>
 
-            <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Escolher plano</a>
+
         </div>
     </section>
 
@@ -360,7 +364,7 @@ $dotenv->load();
                     <input type="number" placeholder="WhatsApp" name="whats">
                     <input type="email" placeholder="E-mail" name="email" required>
                     <input type="text" placeholder="Empresa" name="empresa">
-                    <select name="necessidade" id="" required> 
+                    <select name="necessidade" id="" required>
                         <option value="" disabled selected>Qual a necessidade da sua empresa?</option>
                         <option value="Preciso de um site para alcançar meu espaço no digital">Preciso de um site para alcançar meu espaço no digital</option>
                         <option value="Já tenho site! Quero alavancar o alcance para mais pessoas">Já tenho site! Quero alavancar o alcance para mais pessoas</option>
@@ -369,7 +373,7 @@ $dotenv->load();
                     </select>
 
                     <div>
-                        <input style="width: 10px; height:10px" type="checkbox" required> 
+                        <input style="width: 10px; height:10px" type="checkbox" required>
                         <span>Li e concordo com a <a href="politics.php">Política de Privacidade</a> e os <a href="termos.php">Termos de uso</a> do site.</span>
                     </div>
                     <button style="width: 100%;" class="buttons btn">Enviar mensagem</button>
@@ -377,49 +381,49 @@ $dotenv->load();
             </form>
         </section>
     </center>
-   
+
     <center style="background-color: black; margin: 0 auto;
    position: relative;">
         <div class="about-main">
-                <div class="about-home">
-                    <img width="100" src="images/deepcode_black.png" alt="">
-                    <span align="left">Agência de desenvolvimento de sites e aplicativos</span>
-                    <div class="about-home-icons">
+            <div class="about-home">
+                <img width="100" src="images/deepcode_black.png" alt="">
+                <span align="left">Agência de desenvolvimento de sites e aplicativos</span>
+                <div class="about-home-icons">
                     <a href="https://www.instagram.com/agenciadeepcode/"><i class="bi bi-instagram"></i></a>
                     <a href="https://wa.me/5587991974484"><i class="bi bi-whatsapp"></i></a>
                     <a href="https://www.linkedin.com/company/deepcode-ag%C3%AAncia/"><i class="bi bi-linkedin"></i></a>
-                    </div>
                 </div>
-    
-                <div class="about-service">
-                    <h3>Serviços</h3>
-                    <span>Criação de sites</span>
-                    <span>Criação de aplicativos</span>
-                    <span>Afiliação</span>
-                    <span>Planos de performance</span>
-    
-                </div>
-    
-                <div class="about-politic">
-                    <h3>Políticas</h3>
-                    <span><a href="politics.php" style="text-decoration: none; color: gray;">Privacidade</a></span>
-                    <span><a href="termos.php" style="text-decoration: none; color: gray;">Termos de uso</a></span>
-                
-                </div>
-    
-                <div  class="about-partners">
+            </div>
+
+            <div class="about-service">
+                <h3>Serviços</h3>
+                <span>Criação de sites</span>
+                <span>Criação de aplicativos</span>
+                <span>Afiliação</span>
+                <span>Planos de performance</span>
+
+            </div>
+
+            <div class="about-politic">
+                <h3>Políticas</h3>
+                <span><a href="politics.php" style="text-decoration: none; color: gray;">Privacidade</a></span>
+                <span><a href="termos.php" style="text-decoration: none; color: gray;">Termos de uso</a></span>
+
+            </div>
+
+            <div class="about-partners">
                 <h3>Parceiros</h3>
-                    <img width="100" src="images/cloudez_partner.png" alt="">
-                </div>
+                <img width="100" src="images/cloudez_partner.png" alt="">
+            </div>
         </div>
-            
+
         <br><br>
         <div style="width: 100%;">
             <span style="text-align: center; color:white; margin-bottom: 10px;">Copyright 2024 &copy; DeepCode</span>
         </div>
     </center>
 
-    
+
 
     <a href="https://wa.me/5587991974484" target="_blank" class="whatsapp-button">
         <i class="bi bi-whatsapp"></i>
