@@ -169,15 +169,14 @@ $dotenv->load();
                     <i class="bi bi-info-circle-fill"></i>
                     <strong>Briefing</strong>
                     <span>Para iniciar, teremos uma reunião para destacar as necessidades.</span>
-                    <button class="btn buttons"><a style="text-decoration: none; color: white;" href="https://wa.me/5587991974484">Fale Conosco</a></button>
-
+                    <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Fale Conosco</a>
                 </div>
 
                 <div class="work-exemple">
                     <i class="bi bi-code-slash"></i>
                     <strong>Desenvolvimento</strong>
                     <span>Ao coletar suas informações, o desenvolvimento da sua plataforma será executado.</span>
-                    <button class="btn buttons"><a style="text-decoration: none; color: white;" href="https://wa.me/5587991974484">Fale Conosco</a></button>
+                    <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Fale Conosco</a>
 
                 </div>
 
@@ -185,7 +184,7 @@ $dotenv->load();
                     <i class="bi bi-globe"></i>
                     <strong>Publicação</strong>
                     <span>Após o a conclusão do desenvolvimento da plataforma, será publicado a mesma em sua devida hospedagem e domínio.</span>
-                    <button class="btn buttons"><a style="text-decoration: none; color: white;" href="https://wa.me/5587991974484">Fale Conosco</a></button>
+                    <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Fale Conosco</a>
 
                 </div>
 
@@ -193,7 +192,7 @@ $dotenv->load();
                     <i class="bi bi-kanban"></i>
                     <strong>Acompanhamento</strong>
                     <span>Em caso de pequenas ou grandes alterações, estaremos aqui para você!</span>
-                    <button class="btn buttons"><a style="text-decoration: none; color: white;" href="https://wa.me/5587991974484">Fale Conosco</a></button>
+                    <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Fale Conosco</a>
 
                 </div>
             </div>
@@ -273,17 +272,7 @@ $dotenv->load();
             </center>
             <ul>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Domínio próprio:</strong> Tenha um endereço único e exclusivo para sua marca.</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>Hospedagem dedicada (Cloud):</strong> Seu site hospedado de forma segura e com alta performance.</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>Certificado SSL (HTTPS):</strong> Navegação segura e confiável para seus usuários.</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Backup mensal:</strong> Proteção constante dos seus dados com backups regulares.</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>Suporte via Email:</strong> Respostas rápidas para qualquer necessidade ou problema.</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>CDN:</strong> Acelere o carregamento do seu site em qualquer lugar do mundo.</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>PageSpeed:</strong> Otimização para garantir a navegação mais rápida possível.</span></li>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Manutenção mensal:</strong> Atualizações e ajustes periódicos para manter tudo funcionando bem.</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>E-mails corporativos:</strong> E-mails personalizados com o seu nome de domínio.</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>Implementação de técnicas de performance e estratégias de SEO:</strong> Melhor desempenho e maior visibilidade nos buscadores.</span></li>
-
-
             </ul>
 
 
@@ -297,7 +286,8 @@ $dotenv->load();
                 </h6>
             </center>
             <ul>
-            <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Domínio próprio:</strong> Tenha um endereço único e exclusivo para sua marca.</span></li>
+            <li>
+                <i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>+Tudo da Presença Digital:</strong> Tenha todos os benefícios do nosso plano básico.</span></li>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Hospedagem dedicada (Cloud):</strong> Seu site hospedado de forma segura e com alta performance.</span></li>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Certificado SSL (HTTPS):</strong> Navegação segura e confiável para seus usuários.</span></li>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Backup quinzenal:</strong> Proteção constante dos seus dados com backups regulares.</span></li>
@@ -305,9 +295,6 @@ $dotenv->load();
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>CDN:</strong> Acelere o carregamento do seu site em qualquer lugar do mundo.</span></li>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>PageSpeed:</strong> Otimização para garantir a navegação mais rápida possível.</span></li>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Manutenção quinzenal:</strong> Atualizações e ajustes regulares para manter tudo funcionando bem.</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>E-mails corporativos:</strong> E-mails personalizados com o seu nome de domínio.</span></li>
-                <li><i style="color: red;" class="bi bi-x-circle-fill"></i><span><strong>Implementação de técnicas de performance e estratégias de SEO:</strong> Melhor desempenho e maior visibilidade nos buscadores.</span></li>
-
             </ul>
 
 
@@ -321,13 +308,8 @@ $dotenv->load();
                 </h6>
             </center>
             <ul>
-            <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Domínio próprio:</strong> Tenha um endereço único e exclusivo para sua marca.</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Hospedagem dedicada (Cloud):</strong> Seu site hospedado de forma segura e com alta performance.</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Certificado SSL (HTTPS):</strong> Navegação segura e confiável para seus usuários.</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Backup semanal:</strong> Proteção constante dos seus dados com backups regulares.</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Suporte via Email:</strong> Respostas rápidas para qualquer necessidade ou problema.</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>CDN:</strong> Acelere o carregamento do seu site em qualquer lugar do mundo.</span></li>
-                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>PageSpeed:</strong> Otimização para garantir a navegação mais rápida possível.</span></li>
+
+                <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>+Tudo da Performance Pro:</strong> Tenha todos os benefícios do Performance Pro.</span></li>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Manutenção semanal:</strong> Atualizações e ajustes constantes para manter tudo funcionando bem.</span></li>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>E-mails corporativos:</strong> E-mails personalizados com o seu nome de domínio.</span></li>
                 <li><i style="color: green;" class="bi bi-check-circle-fill"></i><span><strong>Implementação de técnicas de performance e estratégias de SEO:</strong> Melhor desempenho e maior visibilidade nos buscadores.</span></li>
@@ -372,9 +354,9 @@ $dotenv->load();
                         <option value="Outros">Outros</option>
                     </select>
 
-                    <div>
-                        <input style="width: 10px; height:10px" type="checkbox" required>
-                        <span>Li e concordo com a <a href="politics.php">Política de Privacidade</a> e os <a href="termos.php">Termos de uso</a> do site.</span>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <input id="termosEPoliticas" style="width: 20px; height:20px" type="checkbox" required>
+                        <label id="termosEPoliticas">Li e concordo com a <a href="politics.php">Política de Privacidade</a> e os <a href="termos.php">Termos de uso</a> do site.</label>
                     </div>
                     <button style="width: 100%;" class="buttons btn">Enviar mensagem</button>
                 </div>
@@ -434,7 +416,7 @@ $dotenv->load();
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color: black;
+            background-color: green;
             color: white;
             border-radius: 50%;
             width: 60px;
