@@ -106,27 +106,6 @@ $dotenv->load();
 
     </center>
 
-
-    <center class="mt-5">
-        <div class="service-main-1">
-            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
-
-            <dotlottie-player src="https://lottie.host/e97f443a-596e-4043-8f11-bbdce8b386af/8qazOHdz2c.json" background="transparent" speed="1" class="home-img" loop autoplay></dotlottie-player>
-            <div class="service-desc-1">
-                <strong>
-                    <font style="color: #0d4fae;">Sites</font> rápidos, responsivos e profissionais
-                </strong>
-                <div style="display: flex; gap: 10px;">
-                    <hr style="height: 9px; width: 70px; border: none; background-color: #0d4fae; opacity: 1; border-radius:10px">
-                    <hr style="height: 9px; width: 50px; border: none; background-color: gray; border-radius:10px">
-                </div>
-                <span>Crie um site que vai além da estética! Desenvolvemos plataformas otimizadas para gerar conversões e engajamento, com design responsivo que se adapta perfeitamente a qualquer dispositivo. Dê à sua marca uma presença digital moderna e funcional, que realmente faça diferença e atraia clientes.
-                </span>
-                <a class="btn buttons" href="https://wa.me/5587991974484" role="button">Fale Conosco</a>
-            </div>
-        </div>
-    </center>
-
     <center>
         <div class="service-main-2">
             <div class="service-desc-2">
